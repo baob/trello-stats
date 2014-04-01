@@ -1,0 +1,11 @@
+*.gem
+*.swp
+.bundle
+.env
+.ruby-gemset
+.ruby-version
+.rvmrc
+.rspec
+tmp
+.DS_Store
+log/*
