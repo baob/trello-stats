@@ -1,8 +1,10 @@
 require 'trello'
+require 'dotenv'
 
 include Trello
 include Trello::Authorization
 
+Dotenv.load
 Trello::Authorization.const_set :AuthPolicy, OAuthPolicy
 
 OAuthPolicy.consumer_credential = OAuthCredential.new ENV['TRELLO_API_KEY'], ENV['TRELLO_API_SECRET']
