@@ -11,3 +11,7 @@ $ cp .env.sample .env
 $ vi .env
 $ foreman run ruby stats.rb
 ```
+### .env setup
+
+This page from Trello will be useful -- https://trello.com/docs/gettingstarted/index.html
+
